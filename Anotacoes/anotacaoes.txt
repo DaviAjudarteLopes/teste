@@ -1,0 +1,58 @@
+Font: "Oxanium", Sans-serif
+transform: (0.2, 0.2);
+
+<div class="backgrond-carrosel-1">
+        <h1 class="primary-text-destaques">Destaques For All <span>Dreams</span></h1>
+        <h1 class="second-text-destaques">Conheça mais da nossa garagem</h1>
+        <section class="slider">
+            <div class="slider-content">
+
+                <input type="radio" name="btn-radio" id="radio1">
+                <input type="radio" name="btn-radio" id="radio2">
+                <input type="radio" name="btn-radio" id="radio3">
+                <input type="radio" name="btn-radio" id="radio4">
+
+
+                <div class="slide-box primeiro">
+                    <img class="img-desktop" src="Imagens/PorscheCayenneEHybrid2020azu.png" alt="slide 1">
+                </div>
+
+                <div class="slide-box">
+                    <img class="img-desktop" src="Imagens/Ferrari Italia.jpg" alt="slide 3">
+                </div>
+
+                <div class="slide-box">
+                    <img class="img-desktop" src="Imagens/Lamborghiniurus.jpg" alt="slide 3">
+                </div>
+
+                <div class="slide-box">
+                    <img class="img-desktop"  src="Imagens/TESLA MODEL 3 PERFORMANCE 2022.jpg" alt="slide 3">
+                </div>
+
+                <div class="nav-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+
+                <div class="nav-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+    <label class="label-porsche" id="">Porsche Cayenne Hybrid 2020<br>R$:768.900,00<br></label>
+
+
+    .container {  
+    display: grid;  
+    grid-template-columns: 1fr 1fr 1fr;  
+    grid-template-rows: 50px 50px;  
+}

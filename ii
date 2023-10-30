@@ -1,0 +1,26 @@
+<h1 class="primary-text-catalogo">Feedba<span class="span-catalogo">ck's</span></h1>
+    <h1 class="second-text-catalogo">Feedback's dos nossos clientes</h1>
+    <hr class="fed-hr-0">
+    <div class="main-content-feedback">
+        <div class="fed">
+            <img src="Imagens/TOYOTALANDCRUISER2023esquerda2.jpg">
+            <h1>Roberto da Silva</h1>
+            <hr class="fed-hr-1">
+            <hr class="fed-hr-2">
+            <h2><span class="fed-span">"</span>Adorei o atendimento por partes da impreza e da praticidade da realizacao dos documentos e na velocidade da entrega do veiculo<span class="fed-span">"</span></h2>
+        </div>
+    </div>
+    <div></div>
+
+    <div class="">
+        <h2>Login</h2>
+        <form method="POST">
+            <label for="username">Nome de usuário:</label>
+            <input type="text" name="username" required><br>
+            <label for="password">Senha:</label>
+            <input type="password" name="password" required><br>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+    <a aria-label="Descubra o Cayenne S E-Hybrid" class="HomeStageMain__clickableArea__1963c" href="https://www.porsche.com/brazil/pt/models/cayenne/cayenne-models/cayenne-s-e-hybrid/" target=""></a>

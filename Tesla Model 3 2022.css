@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+/* Zerando CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    transition: 1.5s;
+}
+
+
+/* Fundo-tela */
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+    color: rgb(0, 0, 0);
+    font-family: "Oxanium", Sans-serif;;
+    background-color: rgb(255, 255, 255);
+}
+
+span {
+    color: rgb(255, 0, 0);
+    font-size: 60px;
+}
+
+/* imagem-de-fundo-caixa1 */
+
+.backgrond-caixa-1 {
+    background: linear-gradient(rgba(17, 17, 17, 0.849), rgba(20, 20, 20, 0.007)), url(Imagens/Tesla\ model\ 3\ \(6\).jpg);
+    background-position: center center;
+    background-size: cover;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+    height: 1000px;
+}
+
+
+/* Menu - Header - NavBar - Social*/
+
+header {
+    height: 9vh;
+    background-color: rgba(0, 0, 0, 0.205);
+}
+
+.menu-content {
+    text-transform: uppercase;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+.logo {
+    font-size: 1.8rem;
+    letter-spacing: 0.4rem;
+    cursor: pointer;
+}
+
+.logoimg {
+    width: 210px;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-top: 1px;
+}
+
+.menu-content .list-itens {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin-right: 50px;
+    align-items: center;
+}
+
+.menu-content .list-itens a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 5px;
+    transform: 2ms ease-in;
+    position: relative;
+}
+
+.menu-content .list-itens a:before {
+    content: ' ';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 0px;
+    height: 1px;
+    background-color: rgb(255, 0, 0);
+    transition: all 1.5s ease;
+}
+
+.menu-content .list-itens a:hover:before {
+    width: 100%;
+}
+
+.insta {
+    width: 33px;
+    height: 33px;
+    background: radial-gradient(circle at 30% 107%,
+            #fdf497 0%,
+            #fdf497 5%,
+            #fd5949 45%,
+            #d62491 68%,
+            #285aeb 98%);
+    border-radius: 7px;
+    display: grid;
+    place-items: center;
+}
+
+.innerbox {
+    width: 25px;
+    height: 25px;
+    border: 3px solid #fff;
+    border-radius: 6px;
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+
+.innerbox2 {
+    width: 12px;
+    height: 12px;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+
+/* Centro - Conteudo Principal */
+
+main {
+    margin-left: 150px;
+    margin-top: 160px;
+    display: flex;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Textos conteudo principal */
+
+.primary-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 850px;
+    margin-bottom: 1rem;
+    font-size: 5rem;
+    text-align: start;
+}
+
+.second-text {
+    margin-bottom: 8rem;
+    font-size: 5rem;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-family: e;
+}
+
+/* Botões */
+
+.btns button {
+    width: 320px;
+    height: 50px;
+    cursor: pointer;
+    border: 1px solid white;
+    color: white;
+    text-transform: uppercase;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Oxanium", Sans-serif;
+    letter-spacing: 0.4rem;
+    border-radius: 15px;
+    position: relative;
+    transition: 1.5s;
+}
+
+.btns button:hover {
+    color: rgb(255, 0, 0);
+    border: none;
+}
+
+.btns button:before {
+    content: ' ';
+    border-radius: 15px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 0;
+    height: 60px;
+    background-color: rgb(61, 61, 61);
+    z-index: -1;
+    transition: 1s;
+}
+
+.btns button:hover:before {
+    width: 100%;
+}
+
+.main-content-Porcshe {
+    margin-left: 40px;
+    margin-top: 90px;
+}
+
+.img-texto {
+    display: flex;
+    align-items: center;
+}
+
+.img-texto img {
+    margin-right: 10px;
+    width: 50px;
+}
+
+.primary-text-carro {
+    font-size: 30px;
+}
+
+.imgs-porsche {
+    margin-top: 60px;
+    display: flex;
+}
+
+.imgs-porsche img {
+    width: 910px;
+}
+
+.second-text-especificacoes {
+    padding: 100px;
+    margin-top: 30px;
+    font-size: 35px;
+}
+
+.main-content-Porcshe-backgrond {
+    background: url(Imagens/Backgrond7.png);
+    background-position: center center;
+    background-size: cover;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+.interior-exterior {
+    background: url(Imagens/Backgrond7.png);
+    background-position: center center;
+    background-size: cover;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+    height: 1210px;
+}
+
+section.slider {
+    margin: 0 auto;
+    padding: 0 !important;
+    margin-top: 150px;
+}
+
+section.slider a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.slider-content {
+    display: flex;
+}
+
+.especificacoes  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.porsche-resumo {
+    font-family: "Oxanium", Sans-serif;;
+    color: rgb(255, 255, 255);
+}
+
+.porsche-resumo-segundos {
+    font-size: 80px;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.porsche-resumo-segundos-zero-a-cem {
+    margin-left: 26px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.counter-up {
+    font-size: 90px;
+    font-family:  "Oxanium", Sans-serif;
+}
+
+
+.cem {
+    font-size: 90px;
+    font-family: "Oxanium", Sans-serif;;
+}
+
+.porsche-resumo-hr {
+
+}
+.porsche-resumo-hr {
+
+}
+
+.porsche-resumo-texto {
+    width: 700px;
+    padding: 10px;
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.dados-tecnicos {
+    width: 450px;
+}
+
+.dados-tecnicos h1 {
+    color: #FFFFFF;
+    font-family: "Oxanium", Sans-serif;
+    font-size: 55px;
+    display: inline-block;
+    margin-top: 100px;
+}
+
+.velocidade-motor-tracao-potencia-torque {
+    margin-top: 50px;
+}
+
+.dados-tecnicos h2 {
+    color: #FFFFFF;
+    font-family: "Oxanium", Sans-serif;
+    font-size: 29px;
+    display: inline-block;
+    margin-top: 20px;
+    transition: all 1.5s ease;
+}
+
+.dados-tecnicos h2:hover {
+    color: #ff0000;
+    font-family: "Oxanium", Sans-serif;
+    font-size: 29px;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.imgmotor {
+    width: 600px;
+    margin-top: 150px;
+}
+
+.slide-box {
+    position: relative;
+    transition: 1s;
+}
+
+.porsche-interior {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 9rem;
+    color: #fff;
+}
+
+.img-desktop {
+    margin-top: 55px;
+    width: 449px;
+    height: 280px;
+    margin-left: 22px;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 1.5s;
+    background: linear-gradient(rgba(17, 17, 17, 0.849), rgba(20, 20, 20, 0.007));
+}

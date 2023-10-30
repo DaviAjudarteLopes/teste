@@ -1,0 +1,97 @@
+.hr-rodape {
+    margin-top: 30px;
+    background-color: black;
+    width: 100%;
+    height: 0px;
+}
+
+.main-content-rodape {
+    transform: (0,3 0,3);
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+.main-content-rodape a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu-content-rodape-contatos {
+    margin-top: 10px;
+}
+
+.imgrodape {
+    margin-top: 30px;
+    margin-left: 150px;
+    width: 370px;
+    height: 120px;
+}
+
+.menu-content-rodape-contatos-status {
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.menu-content-rodape-contatos-status h1 {
+    width: 725px;
+    margin-top: 5px;
+    font-size: 22px;
+}
+
+.menu-content-rodape-contatos-status img {
+    width: 30px;
+}
+
+.menu-content-rodape-contatos-redes-social h1 {
+    margin-left: 25px;
+    margin-top: 12px;
+    font-size: 45px;
+}
+
+.menu-content-rodape-contatos-redes-social img {
+    margin-left: 29px;
+    margin-top: 9px;
+    gap: 6px;
+    width: 50px;
+}
+
+.rodape-nome-paginas {
+    font-size: 50px;
+    letter-spacing: 0.4rem;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.menu-content-rodape-paginas {
+    display: flex;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.menu-content-rodape-paginas-ids {
+    margin-right: 80px;
+}
+
+.img-desktop-rodape {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.img-desktop-rodape img {
+    width: 23px;
+}
+
+.img-desktop-rodape h2 {
+    font-size: 20px;
+}
+
+.direitos-reservados {
+    text-align: center;
+}
+
+.direitos-reservados h1 {
+    font-size: 15px;
+}

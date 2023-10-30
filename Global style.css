@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+/* Zerando CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Fundo-tela */
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+    color: rgb(255, 255, 255);
+    font-family: "Oxanium", Sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+
+span {
+    color: rgb(255, 0, 0);
+    font-size: 60px;
+}
+
+/* imagem-de-fundo-caixa1 */
+
+.backgrond-caixa-1 {
+    background: linear-gradient(rgba(17, 17, 17, 0.849), rgba(20, 20, 20, 0.007)), url(Imagens/backgrond2.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+    height: 1000px;
+}
+
+
+/* Menu - Header - NavBar - Social*/
+
+header {
+    height: 9vh;
+    background-color: rgba(0, 0, 0, 0.336);
+}
+
+.menu-content {
+    text-transform: uppercase;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+.logo {
+    font-size: 1.8rem;
+    letter-spacing: 0.4rem;
+    cursor: pointer;
+}
+
+.logoimg {
+    width: 200px;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+
+.menu-content .list-itens {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin-right: 50px;
+    align-items: center;
+}
+
+.menu-content .list-itens a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 5px;
+    transform: 2ms ease-in;
+    position: relative;
+}
+
+.menu-content .list-itens a:before {
+    content: ' ';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 0px;
+    height: 1px;
+    background-color: rgb(201, 17, 17);
+    transition: all 1.5s ease;
+}
+
+.menu-content .list-itens a:hover:before {
+    width: 100%;
+}
+
+.insta {
+    width: 33px;
+    height: 33px;
+    background: radial-gradient(circle at 30% 107%,
+            #fdf497 0%,
+            #fdf497 5%,
+            #fd5949 45%,
+            #d62491 68%,
+            #285aeb 98%);
+    border-radius: 7px;
+    display: grid;
+    place-items: center;
+}
+
+.innerbox {
+    width: 25px;
+    height: 25px;
+    border: 3px solid #fff;
+    border-radius: 6px;
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+
+.innerbox2 {
+    width: 12px;
+    height: 12px;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+
+.icon-whatsapp {
+    width: 38px;
+}
+
+.user img {
+    width: 38px;
+    cursor: pointer;
+}
+
+/* Centro - Conteudo Principal */
+
+main {
+    margin-left: 150px;
+    margin-top: 160px;
+    display: flex;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Textos conteudo principal */
+
+.primary-text {
+    font-family: "Oxanium", Sans-serif;
+    width: 850px;
+    margin-bottom: 1rem;
+    font-size: 5rem;
+    text-align: start;
+}
+
+.second-text {
+    margin-bottom: 7rem;
+    font-size: 6rem;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-family: "Oxanium", Sans-serif;
+}
+
+/* Botões */
+
+
+.btns {
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+}
+
+.btns button {
+    width: 250px;
+    height: 60px;
+    cursor: pointer;
+    border: 1px solid white;
+    color: white;
+    text-transform: uppercase;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 23px;
+    letter-spacing: 0.4rem;
+    border-radius: 15px;
+    position: relative;
+    transition: 1.5s;
+}
+
+.btns button:hover {
+    color: rgb(199, 16, 16);
+    border: none;
+}
+
+.btns button:before {
+    content: ' ';
+    border-radius: 15px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 0;
+    height: 60px;
+    background-color: rgb(61, 61, 61);
+    z-index: -1;
+    transition: 1s;
+}
+
+.btns button:hover:before {
+    width: 100%;
+}
+
+/* destaque/carrossel/img/textos*/
+
+.backgrond-carrosel-1 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.backgrond-carrosel-2 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.backgrond-carrosel-1 img {
+    width: 440px;
+    height: 300px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+}
+
+.primary-text-destaques {
+    background-color: black;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 90px;
+}
+
+.hr-destaques {
+    height: 0px;
+    color: rgb(255, 0, 0);
+    background-color: transparent;
+}
+
+.second-text-destaques {
+    color: rgba(255, 255, 255, 0.877);
+    margin-top: 7px;
+    text-align: center;
+    font-size: 45px;
+}
+
+.span-destaques {
+    color: rgb(255, 0, 0);
+    font-size: 100px;
+}
+
+.main-content-feedback {
+    text-align: center;
+}
+
+.fed {
+
+}
+
+.fed img {
+    margin-top: 30px;
+    width: 510px;
+    height: 480px;
+    border-radius: 400px;
+}
+
+.fed h1 {
+    margin-top: 20px;
+    font-size: 60px;
+}
+
+.fed-hr-0 {
+    margin-top: 20px;
+}
+
+.fed-hr-1 {
+    margin-left: 900px;
+    width: 150px;
+    height: 7px;
+    border: 2px solid rgb(255, 0, 0);
+    background-color: #ff1500;
+
+}
+
+.fed-hr-2 {
+    background-color: #ff1500;
+    border: 2px solid rgb(255, 0, 0);
+    margin-left: 960px;
+    margin-top: 2px;
+    width: 150px;
+    height: 7px;
+}
+
+
+.fed h2 {
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.fed-span {
+    font-size: 27px;
+}

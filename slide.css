@@ -1,0 +1,102 @@
+section.slider {
+    margin: 0 auto;
+    padding: 0 !important;
+    margin-top: 50px;
+}
+
+section.slider a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.slider-content {
+    display: flex;
+}
+
+.slider-content-2 {
+    margin-top: 60px;
+    display: flex;
+}
+
+
+.slide-box {
+    position: relative;
+    transition: 1s;
+}
+
+.img-desktop {
+    margin-top: 25px;
+    width: 310px;
+    height: 230px;
+    margin-left: 22px;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 1.5s;
+    background: linear-gradient(rgba(17, 17, 17, 0.849), rgba(20, 20, 20, 0.007));
+}
+
+.main-descricao-destaques {
+    width: 450px;
+    display: flex;
+    align-items: baseline;
+    transition: 1.5s;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.main-descricao-destaques:hover {
+    transform: scale(0.9);
+}
+
+.descricao-destaques-nome {
+    margin-top: 3px;
+    margin-left: 23px;
+    font-family: "Chakra Petch", Sans-serif;
+    font-size: 25px;
+}
+
+.hr-destaques-2 {
+    border: 2px solid rgb(255, 0, 0);
+    margin-top: 3px;
+    margin-left: 20px;
+    width: 97px;
+    background-color: transparent;
+}
+
+.hr-destaques-3 {
+    border: 2px solid rgb(255, 0, 0);
+    margin-top: 4px;
+    margin-left: 65px;
+    width: 77px;
+    background-color: transparent;
+}
+
+.descricao-destaques-valor {
+    margin-top: 25px;
+    margin-left: 23px;
+    font-size: 25px;
+    font-family: "Chakra Petch", Sans-serif;
+}
+
+
+.descricao-destaques-especificacoes {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 23px;
+    font-family: "Chakra Petch", Sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.descricao-destaques-especificacoes h1 {
+    margin-left: 3px;
+    margin-right: 2px;
+}
+
+.descricao-destaques-especificacoes img {
+    height: 25px;
+    width: 25px;
+}
